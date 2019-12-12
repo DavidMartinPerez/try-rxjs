@@ -1,7 +1,7 @@
 {
-  "name": "rxjs-dev",
+  "name": "try-rxjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Profundizando en Reactive X con rxjs",
   "main": "index.js",
   "dependencies": {
     "rxjs": "^6.5.3",
@@ -17,6 +17,6 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --port=8081"
   },
-  "author": "",
+  "author": "David Martin Perez",
   "license": "ISC"
 }
