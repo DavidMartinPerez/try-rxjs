@@ -1,8 +1,19 @@
-import { Observable } from 'rxjs';
+import { Observable, Observer } from 'rxjs';
+
+const observer: Observer<any> = {
+    next: value => console.log('[next]', value),
+    error: err => console.log('[error]', err),
+    complete: () => console.log('[complete]')
+};
 
 const obs$ = new Observable<string>( subs => {
 
     subs.next( 'Hoola!' );
+    subs.next( 'Mundo!' );
+
+    //Error
+    // const a = undefined;
+    // a.name = 'Error name of undefined';
 
     subs.complete();
 
@@ -10,4 +21,10 @@ const obs$ = new Observable<string>( subs => {
 
 });
 
-obs$.subscribe( console.log );
+obs$.subscribe( observer );
+
+// obs$.subscribe(
+//     value => console.log('next', value),
+//     err => console.warn('error', err),
+//     () => console.log('complete')
+// );
