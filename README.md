@@ -6,3 +6,4 @@
 * add
 * subject
 * of
+* fromEvent
