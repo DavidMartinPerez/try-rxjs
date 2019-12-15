@@ -18,4 +18,5 @@
 * pluck
 * mapTo
 * filter
+* tap
 * Encadenar operadores
