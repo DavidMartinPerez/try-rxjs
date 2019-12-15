@@ -28,6 +28,8 @@
     - Ejecuta next de los obseravbles mientrás se cumpla una condición
 * takeUntil
     - Completa el observable cuando el observable indicado como parametro emita su primer next
+* Skip
+    - Ignora el resto del código N veces
 * Encadenar operadores
 
 ### Ejemplos
