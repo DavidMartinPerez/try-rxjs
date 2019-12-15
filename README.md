@@ -22,6 +22,8 @@
 * reduce
 * scan
 * take
+* first
+    - Cuando ejecuta el primer next o el primero que cumple una condición, termina el observable.
 * Encadenar operadores
 
 ### Ejemplos
