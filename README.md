@@ -19,6 +19,7 @@
 * mapTo
 * filter
 * tap
+* reduce
 * Encadenar operadores
 
 ### Ejemplos
