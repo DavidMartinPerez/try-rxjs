@@ -17,3 +17,5 @@
 * map
 * pluck
 * mapTo
+* filter
+* Encadenar operadores
