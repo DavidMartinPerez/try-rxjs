@@ -1,5 +1,12 @@
 import { of, from } from 'rxjs';
 import {  distinctUntilChanged } from 'rxjs/operators';
+
+const numbers$ = of<number|string>(1,'1',2,3,4,1,1,2,3,4,1);
+
+numbers$.pipe(
+    distinctUntilChanged()
+).subscribe( console.log );
+
 interface Heroe {
     name: string;
 }
