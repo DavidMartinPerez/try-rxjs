@@ -7,3 +7,4 @@
 * subject
 * of
 * fromEvent
+* range
