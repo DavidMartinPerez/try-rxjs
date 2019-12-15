@@ -24,6 +24,8 @@
 * take
 * first
     - Cuando ejecuta el primer next o el primero que cumple una condición, termina el observable.
+* takeWhile
+    - Ejecuta next de los obseravbles mientrás se cumpla una condición
 * Encadenar operadores
 
 ### Ejemplos
