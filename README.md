@@ -12,5 +12,8 @@
 * interval
 * asyncSheduler
 * from
+
+### Operadores
 * map
 * pluck
+* mapTo
