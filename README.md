@@ -13,3 +13,4 @@
 * asyncSheduler
 * from
 * map
+* pluck
