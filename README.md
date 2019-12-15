@@ -20,6 +20,7 @@
 * filter
 * tap
 * reduce
+* scan
 * Encadenar operadores
 
 ### Ejemplos
