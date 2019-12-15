@@ -21,6 +21,7 @@
 * tap
 * reduce
 * scan
+* take
 * Encadenar operadores
 
 ### Ejemplos
