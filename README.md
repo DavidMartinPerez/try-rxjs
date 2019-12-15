@@ -8,3 +8,5 @@
 * of
 * fromEvent
 * range
+* timer
+* interval
