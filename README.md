@@ -30,6 +30,8 @@
     - Completa el observable cuando el observable indicado como parametro emita su primer next
 * Skip
     - Ignora el resto del código N veces
+* Distinct
+    - Solo emite los valores que no han sido antes emitidos, por lo cual los repetidos los elimina
 * Encadenar operadores
 
 ### Ejemplos
