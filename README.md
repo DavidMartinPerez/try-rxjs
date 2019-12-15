@@ -32,6 +32,10 @@
     - Ignora el resto del código N veces
 * Distinct
     - Solo emite los valores que no han sido antes emitidos, por lo cual los repetidos los elimina
+* distinctUntilChanged
+    - Solo emite los valores si el anterior emitido no es igual
+* distinctUntilKeyChanged
+    - Distinge si la key anterior a cambiado
 * Encadenar operadores
 
 ### Ejemplos
