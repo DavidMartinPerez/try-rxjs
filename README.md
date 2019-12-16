@@ -48,5 +48,9 @@
     - Desde la primera siguiente emisión del observable hace una espera de X segundos y emite el último valor emitido durante esos X segundos.
 * Encadenar operadores
 
+### AJAX
+* ajax
+* catchError
+
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
