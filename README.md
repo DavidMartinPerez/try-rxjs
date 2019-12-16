@@ -42,6 +42,8 @@
     - Emite el primer valor y luego ignorar durante la duración especificada y vuelve a emitirlo.
 * sampleTime
     - Emite cada X tiempo el ultimo valor emitido por el obseravble
+* sample
+    - Emite el valor del observable cuando se emite el observable indicado.
 * Encadenar operadores
 
 ### Ejemplos
