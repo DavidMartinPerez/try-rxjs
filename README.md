@@ -36,6 +36,12 @@
     - Solo emite los valores si el anterior emitido no es igual
 * distinctUntilKeyChanged
     - Distinge si la key anterior a cambiado
+* debounceTime
+    - Descarta los valores emitidos que tardan menos del tiempo especificado entre salidas.
+* throttleTime
+    - Emite el primer valor y luego ignorar durante la duración especificada y vuelve a emitirlo.
+* sampleTime
+    - Emite cada X tiempo el ultimo valor emitido por el obseravble
 * Encadenar operadores
 
 ### Ejemplos
