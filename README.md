@@ -32,6 +32,12 @@
     - Ignora el resto del código N veces
 * Distinct
     - Solo emite los valores que no han sido antes emitidos, por lo cual los repetidos los elimina
+* debounceTime
+    - Descarta los valores emitidos que tardan menos del tiempo especificado entre salidas.
+* throttleTime
+    - Emite el primer valor y luego ignorar durante la duración especificada y vuelve a emitirlo.
+* sampleTime
+    - Emite cada X tiempo el ultimo valor emitido por el obseravble
 * Encadenar operadores
 
 ### Ejemplos
