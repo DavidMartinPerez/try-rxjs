@@ -1,21 +1,18 @@
-import { ajax, AjaxError } from 'rxjs/ajax';
-import { of } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { ajax } from 'rxjs/ajax';
+import { Observer } from 'rxjs';
 
-const url = 'https://httpbin.org/dzzelay/2';
-const catchErrorCustom = (resp: AjaxError) => {
-	console.warn('error:', resp.message);
-	return of({
-		ok: false
-	});
+const observer: Observer<{}> = {
+	next: (data) => console.info('[next] ->', data),
+	error: (err) => console.warn('[error] -> ', err),
+	complete: () => console.log('[Complete]')
 };
 
-const obs$ = ajax.getJSON(url, {
+const url = 'https://httpbin.org/dzzelay/2';
+const HEADERS = {
 	'Content-Type': 'application/json',
 	'mi-token': 'asdkfykksdaasd234'
-});
+};
 
-obs$.subscribe(
-    (data) => console.info( '[next] ->', data ),
-    (err) => console.warn( '[error] -> ', err),
-    () => console.log('[Complete]'));
+const obs$ = ajax.getJSON(url, HEADERS);
+
+obs$.subscribe(observer);
