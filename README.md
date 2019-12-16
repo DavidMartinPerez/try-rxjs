@@ -44,6 +44,8 @@
     - Emite cada X tiempo el ultimo valor emitido por el obseravble
 * sample
     - Emite el valor del observable cuando se emite el observable indicado.
+* auditTime
+    - Desde la primera siguiente emisión del observable hace una espera de X segundos y emite el último valor emitido durante esos X segundos.
 * Encadenar operadores
 
 ### Ejemplos
