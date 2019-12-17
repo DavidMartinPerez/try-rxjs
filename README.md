@@ -54,5 +54,11 @@
 * getJson
 * method http
 
+### Transformadores
+* mergeAll
+    - Convierte todas las emisiones de observables interiores en un observable y lo emite
+* mergeMap
+    - Emite cada valor de origen en un Observable que se fusiona en el Observable de salida
+
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
