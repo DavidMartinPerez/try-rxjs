@@ -61,6 +61,7 @@
     - Emite cada valor de origen en un Observable que se fusiona en el Observable de salida
 * switchMap
     - Emite observables fusionado en la salida, solo emite el valor más reciente cancelando todos los demás
-
+* concatMap
+    - Concatena todos los observables creando una cola que se ejecutarán por orden al terminar el observable anterior.
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
