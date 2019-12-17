@@ -55,6 +55,7 @@
 * method http
 
 ### Transformadores
+( son observables de aplanamiento )
 * mergeAll
     - Convierte todas las emisiones de observables interiores en un observable y lo emite
 * mergeMap
@@ -63,5 +64,9 @@
     - Emite observables fusionado en la salida, solo emite el valor más reciente cancelando todos los demás
 * concatMap
     - Concatena todos los observables creando una cola que se ejecutarán por orden al terminar el observable anterior.
+* exhaustMap
+    - Ignora todos los observables emitidos mientrás este activo el observable actual.
+
+
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
