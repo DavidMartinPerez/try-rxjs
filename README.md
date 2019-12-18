@@ -78,6 +78,8 @@
     - Fuciona los dos observables con la misma salida
 * combineLastest
     - Combina las dos ultimas salidas de los observables emitiendo los valores
+* forkJoin
+    - Cuando terminen se completen todos los observables es cuando se emitirá los valores
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
