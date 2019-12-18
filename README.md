@@ -67,11 +67,13 @@
 * exhaustMap
     - Ignora todos los observables emitidos mientrás este activo el observable actual.
 
-### asd
+### Combinadores
 * startWith
     - Emite por primer valor.
 * endWith
     - Emite por ultimo valor.
+* concat
+    - Concatena observables creando una cola de ejecución.
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
