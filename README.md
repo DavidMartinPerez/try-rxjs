@@ -76,6 +76,8 @@
     - Concatena observables creando una cola de ejecución.
 * merge
     - Fuciona los dos observables con la misma salida
+* combineLastest
+    - Combina las dos ultimas salidas de los observables emitiendo los valores
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
