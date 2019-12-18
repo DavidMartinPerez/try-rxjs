@@ -67,6 +67,11 @@
 * exhaustMap
     - Ignora todos los observables emitidos mientrás este activo el observable actual.
 
+### asd
+* startWith
+    - Emite por primer valor.
+* endWith
+    - Emite por ultimo valor.
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
