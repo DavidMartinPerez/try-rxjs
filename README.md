@@ -74,6 +74,8 @@
     - Emite por ultimo valor.
 * concat
     - Concatena observables creando una cola de ejecución.
+* merge
+    - Fuciona los dos observables con la misma salida
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
