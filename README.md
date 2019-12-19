@@ -83,3 +83,13 @@
 
 ### Ejemplos
 * scrollbar -> [video](https://twitter.com/davililloperez/status/1206260294647001088)
+* capitalizar
+    - capitalizar una secuencia de string
+* reduce
+    - una suma de todos los valores que emite un observable y luego emitirla
+* random
+    - Emitir los mismos valores de un random en varias subscripciones
+* combinar
+    - Combinar dos emiciones de observables en una misma salida
+* Combinar peticiones http
+    - Combinar dos peticiones http con una salida con el operador ZIP
